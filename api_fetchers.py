@@ -12,7 +12,6 @@ from requests.exceptions import HTTPError, Timeout
 from django.core.cache import cache
 from frontend.utils import crl_cacher
 
-
 from _project_.settings.api import (HEADERS,
                                     API_EVENT_CITIES_ENDPOINT,
                                     API_FULLTEXT_SEARCH,
